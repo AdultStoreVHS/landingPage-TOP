@@ -4,10 +4,86 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: sans-serif;
 }
+/* header and footer styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+nav > div{
+    display: flex;
+    align-items: center;
+}
+
 header,
 footer{
     color: white;
     background-color: #1f2937;
     margin: 0;
+    font-size: 18px;
 }
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li{
+    padding: 0 8px;
+    font-size: 12px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+nav > div{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 44px 90px;
+}
+
+.hero-txt{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+.hero-txt > h1{
+    margin: 0 auto;
+}
+
+.hero-txt > p{
+    margin: 0;
+}
+
+.hero-txt > button{
+    background-color: #3882F6;
+    color: white;
+    width: max-content;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+
+.hero-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div > img{
+    width: 400px;
+    height: 100%;
+}
+
