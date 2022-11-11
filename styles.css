@@ -64,6 +64,11 @@ nav > div{
     margin: 0 auto;
 }
 
+.hero-txt p{
+    color:#a4a5a9;
+    font-size: 16px;
+}
+
 .hero-txt > p{
     margin: 0;
 }
@@ -87,3 +92,39 @@ div > img{
     height: 100%;
 }
 
+/* card sections */
+.info-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin: 8px auto;
+}
+
+div > h2{
+    text-align: center;
+    margin: 32px;
+    font-size: 32px;
+    font-weight: 700; 
+    color: #1F2937;
+}
+
+.cards{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.card-container p{
+    margin-top: 4px;
+}
