@@ -2,7 +2,9 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
+    gap: 32px;
     justify-content: space-between;
     font-family: sans-serif;
 }
@@ -10,12 +12,12 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: auto 90px;
+    margin: auto 17%;
 }
 
 nav > div{
-    display: flex;
-    align-items: center;
+    text-align: center;
+    margin: auto auto auto 0;
 }
 
 header,
@@ -50,30 +52,31 @@ nav > div{
 .hero{
     display: flex;
     justify-content: center;
-    gap: 8px;
-    margin: 44px 90px;
+    gap: 12px;
+    margin: 30px 17%;
 }
 
-.hero-txt{
+.hero-left{
     display: flex;
     flex-flow: column wrap;
     gap: 8px;
+    flex: 1 1 0;
 }
 
-.hero-txt > h1{
-    margin: 0 auto;
+.hero-left > h1{
+    margin: 0;
 }
 
-.hero-txt p{
+.hero-left p{
     color:#a4a5a9;
     font-size: 16px;
 }
 
-.hero-txt > p{
+.hero-left > p{
     margin: 0;
 }
 
-.hero-txt > button{
+.hero-left > button{
     background-color: #3882F6;
     color: white;
     width: max-content;
@@ -81,10 +84,11 @@ nav > div{
     border-radius: 8px;
 }
 
-.hero-img{
+.hero-right{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1 1 0;
 }
 
 div > img{
